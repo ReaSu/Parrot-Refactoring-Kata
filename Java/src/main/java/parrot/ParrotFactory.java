@@ -7,7 +7,7 @@ public final class ParrotFactory {
             case EUROPEAN:
                 return new EuropeanParrot(type, numberOfCoconuts, voltage, isNailed);
             case AFRICAN:
-                return new AfricanParrot(type, numberOfCoconuts, voltage, isNailed);
+                return new AfricanParrot(numberOfCoconuts);
             case NORWEGIAN_BLUE:
                 return new NorwegianBlueParrot(voltage, isNailed);
             default:

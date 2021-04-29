@@ -4,12 +4,12 @@ public class AfricanParrot extends Parrot {
 
     private final double numberOfCoconuts;
 
-    AfricanParrot(ParrotTypeEnum type, int numberOfCoconuts, double voltage, boolean isNailed) {
+    AfricanParrot(int numberOfCoconuts) {
         super();
         this.numberOfCoconuts = numberOfCoconuts;
     }
 
-    public double getSpeed() {
+    double getSpeed() {
         return Math.max(0, getBaseSpeed() - getLoadFactor() * numberOfCoconuts);
     }
 

@@ -6,7 +6,7 @@ public class EuropeanParrot extends Parrot {
         super();
     }
 
-    public double getSpeed() {
+    double getSpeed() {
          return getBaseSpeed();
     }
 }
